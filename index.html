@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PUCKLE</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Toggle Sidebar Button -->
+  <button id="toggleSidebarBtn">Menu</button>
+
+  <div class="sidebar closed" id="sidebar">
+    <div class="instructions">
+      <h2>Instructions</h2>
+      <ul id="inst_list">
+        <li>If your guess for one of the categories is <span class="green">green</span> it is correct</li>
+        <li>If your guess for one of the categories is <span class="yellow">yellow</span> it depends the category</li>
+        <li><span class="orange">Team</span>: Same division</li>
+        <li><span class="orange">Age</span>: ± 2 years age difference</li>
+        <li><span class="orange">Height</span>: Same foot (Ex. 5-10 & 5-8)</li>
+        <li><span class="orange">Weight</span>: ± 15lbs difference</li>
+        <li>If your guess for one of the categories is black it is none of the above</li>
+      </ul>
+      <p>
+        Enjoy and if you need/want to contact us do so via email
+        <br/>
+        <a href="mailto:contact.puckle@gmail.com">contact.puckle@gmail.com</a>
+      </p>
+      <p class="credit">Made by: Alex Lester</p>
+    </div>
+  </div>
+
+  <div class="container" id="mainContent">
+    <h1>PUCKLE</h1>
+    <p class="subtitle">WORDLE but for NHL players</p>
+
+    <div class="input-group">
+        <div class="autocomplete-wrapper">
+            <input type="text" id="playerInput" placeholder="Type a player's name..." autocomplete="off" />
+            <ul id="suggestions" class="suggestions-list"></ul>
+          </div>
+          
+        <button id="guessBtn">Guess</button>
+        <button id="resetBtn">Reset</button>
+ 
+    </div>
+
+    <table id="resultsTable">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Team</th>
+          <th>Position</th>
+          <th>Age</th>
+          <th>Hand</th>
+          <th>Height</th>
+          <th>Weight</th>
+          <th>Nationality</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Guesses will be added here -->
+      </tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
