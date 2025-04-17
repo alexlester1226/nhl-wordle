@@ -55,8 +55,8 @@ window.onload = function () {
     function initializeGame() {
       let found = false;
       while (!found) {
-        // const randomName = topPlayers[Math.floor(Math.random() * topPlayers.length)];
-        const randomName = "Connor McDavid";
+        const randomName = topPlayers[Math.floor(Math.random() * topPlayers.length)];
+        // const randomName = "Connor McDavid";
         const match = players.find(p => p.name === randomName);
         if (match) {
           answer = match;
