@@ -255,3 +255,35 @@ body {
     to { opacity: 1; transform: scale(1); }
   }
   
+  @media (max-width: 600px) {
+    .input-group {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    .input-group button {
+      width: 100%;
+    }
+  
+    .autocomplete-wrapper {
+      width: 100%;
+    }
+  
+    #playerInput {
+      font-size: 1rem;
+    }
+  
+    .container {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  
+    table {
+      font-size: 0.85rem;
+    }
+  
+    h1 {
+      font-size: 2rem;
+    }
+  }
+  
