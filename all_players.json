@@ -6567,5 +6567,365 @@
         "handedness": "L",
         "birthdate": "1998-08-27",
         "nationality": "CAN"
+    }, 
+    {
+        "name": "Nathan MacKinnon",
+        "team": "Colorado Avalanche",
+        "position": "C",
+        "height": 72,
+        "weight": 200,
+        "handedness": "R",
+        "birthdate": "1995-09-01",
+        "nationality": "CAN"
+    },
+    {
+        "name": "Leon Draisaitl",
+        "team": "Edmonton Oilers",
+        "position": "C",
+        "height": 74,
+        "weight": 208,
+        "handedness": "L",
+        "birthdate": "1995-10-27",
+        "nationality": "DEU"
+    },
+    {
+        "name": "Cale Makar",
+        "team": "Colorado Avalanche",
+        "position": "D",
+        "height": 71,
+        "weight": 187,
+        "handedness": "R",
+        "birthdate": "1998-10-30",
+        "nationality": "CAN"
+    },
+    {
+        "name": "Jack Eichel",
+        "team": "Vegas Golden Knights",
+        "position": "C",
+        "height": 74,
+        "weight": 214,
+        "handedness": "R",
+        "birthdate": "1996-10-28",
+        "nationality": "USA"
+    },
+    {
+        "name": "Tim Stutzle",
+        "team": "Ottawa Senators",
+        "position": "C",
+        "height": 72,
+        "weight": 190,
+        "handedness": "L",
+        "birthdate": "2002-01-15",
+        "nationality": "DEU"
+    },
+    {
+        "name": "Logan Thompson",
+        "team": "Washington Capitals",
+        "position": "G",
+        "height": 76,
+        "weight": 205,
+        "handedness": "L",
+        "birthdate": "1997-02-25",
+        "nationality": "CAN"
+    },
+    {
+        "name": "Mackenzie Blackwood",
+        "team": "Colorado Avalanche",
+        "position": "G",
+        "height": 76,
+        "weight": 225,
+        "handedness": "L",
+        "birthdate": "1996-12-09",
+        "nationality": "CAN"
+    },
+    {
+        "name": "Jake Sanderson",
+        "team": "Ottawa Senators",
+        "position": "D",
+        "height": 74,
+        "weight": "190",
+        "handedness": "L",
+        "birthdate": "2002-07-08",
+        "nationality": "USA"
+    },
+    {
+        "name": "Jesper Bratt",
+        "team": "New Jersey Devils",
+        "position": "LW",
+        "height": 70,
+        "weight": 175,
+        "handedness": "L",
+        "birthdate": "1998-07-30",
+        "nationality": "SWE"
+    },
+    {
+        "name": "Nico Hischier",
+        "team": "New Jersey Devils",
+        "position": "C",
+        "height": 72,
+        "weight": 175,
+        "handedness": "L",
+        "birthdate": "1999-01-04",
+        "nationality": "CHE"
+    },
+    {
+        "name": "Mark Stone",
+        "team": "Vegas Golden Knights",
+        "position": "RW",
+        "height": 75,
+        "weight": 219,
+        "handedness": "R",
+        "birthdate": "1992-05-13",
+        "nationality": "CAN"
+    },
+    {
+        "name": "John Carlson",
+        "team": "Washington Capitals",
+        "position": "D",
+        "height": 75,
+        "weight": 213,
+        "handedness": "R",
+        "birthdate": "1990-01-10",
+        "nationality": "USA"
+    },
+    {
+        "name": "Nikolaj Ehlers",
+        "team": "Winnipeg Jets",
+        "position": "LW",
+        "height": 72,
+        "weight": 172,
+        "handedness": "L",
+        "birthdate": "1996-02-14",
+        "nationality": "DNK"
+    },
+    {
+        "name": "Adin Hill",
+        "team": "Vegas Golden Knights",
+        "position": "G",
+        "height": 78,
+        "weight": 215,
+        "handedness": "L",
+        "birthdate": "1996-05-11",
+        "nationality": "CAN"
+    },
+    {
+        "name": "Jacob Markstrom",
+        "team": "New Jersey Devils",
+        "position": "G",
+        "height": 78,
+        "weight": 206,
+        "handedness": "L",
+        "birthdate": "1990-01-31",
+        "nationality": "SWE"
+    },
+    {
+        "name": "Timo Meier",
+        "team": "New Jersey Devils",
+        "position": "RW",
+        "height": 74,
+        "weight": 218,
+        "handedness": "L",
+        "birthdate": "1996-10-08",
+        "nationality": "CHE"
+    },
+    {
+        "name": "Zach Hyman",
+        "team": "Edmonton Oilers",
+        "position": "LW",
+        "height": 73,
+        "weight": 211,
+        "handedness": "L",
+        "birthdate": "1992-06-09",
+        "nationality": "CAN"
+    },
+    {
+        "name": "Luke Hughes",
+        "team": "New Jersey Devils",
+        "position": "D",
+        "height": 74,
+        "weight": 185,
+        "handedness": "L",
+        "birthdate": "2003-09-09",
+        "nationality": "USA"
+    },
+    {
+        "name": "Seth Jones",
+        "team": "Florida Panthers",
+        "position": "D",
+        "height": 76,
+        "weight": 209,
+        "handedness": "R",
+        "birthdate": "1994-10-03",
+        "nationality": "USA"
+    },
+    {
+        "name": "Mason Marchment",
+        "team": "Dallas Stars",
+        "position": "LW",
+        "height": 76,
+        "weight": 210,
+        "handedness": "L",
+        "birthdate": "1995-06-18",
+        "nationality": "CAN"
+    },
+    {
+        "name": "Alex Pietrangelo",
+        "team": "Vegas Golden Knights",
+        "position": "D",
+        "height": 75,
+        "weight": 210,
+        "handedness": "R",
+        "birthdate": "1990-01-18",
+        "nationality": "CAN"
+    },
+    {
+        "name": "Jake Walman",
+        "team": "Edmonton Oilers",
+        "position": "D",
+        "height": 74,
+        "weight": 215,
+        "handedness": "L",
+        "birthdate": "1996-02-20",
+        "nationality": "CAN"
+    },
+    {
+        "name": "Thatcher Demko",
+        "team": "Vancouver Canucks",
+        "position": "G",
+        "height": 76,
+        "weight": 192,
+        "handedness": "L",
+        "birthdate": "1995-12-08",
+        "nationality": "USA"
+    },
+    {
+        "name": "Devon Toews",
+        "team": "Colorado Avalanche",
+        "position": "D",
+        "height": 73,
+        "weight": 191,
+        "handedness": "L",
+        "birthdate": "1994-02-21",
+        "nationality": "CAN"
+    },
+    {
+        "name": "Dylan Holloway",
+        "team": "St. Louis Blues",
+        "position": "LW",
+        "height": 73,
+        "weight": 203,
+        "handedness": "L",
+        "birthdate": "2001-09-23",
+        "nationality": "CAN"
+    },
+    {
+        "name": "Aliaksei Protas",
+        "team": "Washington Capitals",
+        "position": "C",
+        "height": 77,
+        "weight": "225",
+        "handedness": "L",
+        "birthdate": "2001-01-06",
+        "nationality": "BLR"
+    },
+    {
+        "name": "Gabriel Vilardi",
+        "team": "Winnipeg Jets",
+        "position": "C",
+        "height": 75,
+        "weight": 215,
+        "handedness": "R",
+        "birthdate": "1999-08-16",
+        "nationality": "CAN"
+    },
+    {
+        "name": "Josh Norris",
+        "team": "Buffalo Sabres",
+        "position": "C",
+        "height": 73,
+        "weight": 195,
+        "handedness": "L",
+        "birthdate": "1999-05-05",
+        "nationality": "USA"
+    },
+    {
+        "name": "Jonathan Drouin",
+        "team": "Colorado Avalanche",
+        "position": "LW",
+        "height": 71,
+        "weight": "203",
+        "handedness": "L",
+        "birthdate": "1995-03-28",
+        "nationality": "CAN"
+    },
+    {
+        "name": "Mathew Barzal",
+        "team": "New York Islanders",
+        "position": "C",
+        "height": 72,
+        "weight": 187,
+        "handedness": "R",
+        "birthdate": "1997-05-26",
+        "nationality": "CAN"
+    },
+    {
+        "name": "Evander Kane",
+        "team": "Edmonton Oilers",
+        "position": "LW",
+        "height": 74,
+        "weight": 210,
+        "handedness": "L",
+        "birthdate": "1991-08-02",
+        "nationality": "CAN"
+    },
+    {
+        "name": "Jack Hughes",
+        "team": "New Jersey Devils",
+        "position": "C",
+        "height": 71,
+        "weight": 175,
+        "handedness": "L",
+        "birthdate": "2001-05-14",
+        "nationality": "USA"
+    },
+    {
+        "name": "Roman Josi",
+        "team": "Nashville Predators",
+        "position": "D",
+        "height": 73,
+        "weight": 201,
+        "handedness": "L",
+        "birthdate": "1990-06-01",
+        "nationality": "CHE"
+    },
+    {
+        "name": "Charlie McAvoy",
+        "team": "Boston Bruins",
+        "position": "D",
+        "height": 72,
+        "weight": 210,
+        "handedness": "R",
+        "birthdate": "1997-12-21",
+        "nationality": "USA"
+    },
+    {
+        "name": "Mattias Ekholm",
+        "team": "Edmonton Oilers",
+        "position": "D",
+        "height": 76,
+        "weight": 215,
+        "handedness": "L",
+        "birthdate": "1990-05-24",
+        "nationality": "SWE"
+    },
+    {
+        "name": "Miro Heiskanen",
+        "team": "Dallas Stars",
+        "position": "D",
+        "height": 73,
+        "weight": 192,
+        "handedness": "L",
+        "birthdate": "1999-07-18",
+        "nationality": "FIN"
     }
 ]
