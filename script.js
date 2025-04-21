@@ -52,22 +52,19 @@ window.onload = function () {
       initializeGame();
     });
 
-    function initializeGame() {
-      let found = false;
-      while (!found) {
-        const randomName = topPlayers[Math.floor(Math.random() * topPlayers.length)];
-        // const randomName = "Connor McDavid";
-        const match = players.find(p => p.name === randomName);
-        if (match) {
-          answer = match;
-          found = true;
-        }
+  function initializeGame() {
+    let found = false;
+    while (!found) {
+      const randomName = topPlayers[Math.floor(Math.random() * topPlayers.length)];
+      const match = players.find(p => p.name === randomName);
+      if (match) {
+        answer = match;
+        found = true;
       }
-    
-      input.value = "";
-      suggestions.innerHTML = "";
     }
-    
+    input.value = "";
+    suggestions.innerHTML = "";
+  }
 
   function calculateAge(birthdate) {
     const dob = new Date(birthdate);
@@ -88,16 +85,11 @@ window.onload = function () {
 
     if (category === "position") {
       if (guessVal === answerVal) return "green";
-    
       const forwardPositions = ["C", "LW", "RW", "F"];
       const isGuessForward = forwardPositions.includes(guessVal);
       const isAnswerForward = forwardPositions.includes(answerVal);
-    
-      if (isGuessForward && isAnswerForward) return "orange";
-    
-      return "black";
+      return (isGuessForward && isAnswerForward) ? "orange" : "black";
     }
-    
 
     if (category === "age") {
       const diff = Math.abs(guessVal - answerVal);
@@ -117,11 +109,10 @@ window.onload = function () {
     if (category === "handedness") {
       return guessVal === answerVal ? "green" : "black";
     }
-    
+
     if (category === "nationality") {
       return guessVal === answerVal ? "green" : "black";
     }
-    
 
     return "black";
   }
@@ -156,11 +147,7 @@ window.onload = function () {
     const answerAge = calculateAge(answer.birthdate);
 
     const categories = [
-      {
-        key: "name",
-        value: guessedPlayer.name,
-        color: guessedPlayer.name === answer.name ? "green" : "black"
-      },
+      { key: "name", value: guessedPlayer.name, color: guessedPlayer.name === answer.name ? "green" : "black" },
       { key: "team", value: guessedPlayer.team, color: getCategoryColor("team", guessedPlayer.team, answer.team) },
       { key: "position", value: guessedPlayer.position, color: getCategoryColor("position", guessedPlayer.position, answer.position) },
       { key: "age", value: guessAge, color: getCategoryColor("age", guessAge, answerAge) },
@@ -179,6 +166,9 @@ window.onload = function () {
     });
 
     tableBody.appendChild(row);
+
+    // Clear input after guess
+    input.value = "";
   });
 
   resetBtn.addEventListener("click", () => {
@@ -192,6 +182,7 @@ window.onload = function () {
     initializeGame();
   });
 };
+
 
 const topPlayers = [
   "Nathan MacKinnon",
@@ -219,7 +210,7 @@ const topPlayers = [
   "Brayden Point",
   "Nick Suzuki",
   "Jason Robertson",
-  "Tim Stützle",
+  "Tim Stutzle",
   "Quinn Hughes",
   "Logan Thompson",
   "Victor Hedman",
