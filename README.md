@@ -39,7 +39,7 @@ For each guess, you’ll get feedback by category:
 
 ## 📡 Data Source
 
-All player data is sourced from the **[Sportsrader's NHL API](https://developer.sportradar.com/)** and stored in a local `all_players.json` file for performance and offline use.
+All player data is sourced from the **[Sportsradar's NHL API](https://developer.sportradar.com/)** and stored in a local `all_players.json` file for performance and offline use.
 
 ---
 
