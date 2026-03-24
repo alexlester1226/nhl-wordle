@@ -2,7 +2,7 @@
 
 PUCKLE is a hockey-themed guessing game inspired by Wordle — but instead of guessing words, you’re guessing **NHL players**!
 
-🕹️ **Play it here:** [puckle.org](https://puckle.org)
+🕹️ **Play it here:** [puckle.org](https://alexlester.org/puckle/index.html)
 
 ---
 
